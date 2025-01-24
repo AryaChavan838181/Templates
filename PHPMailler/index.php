@@ -77,8 +77,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="container">
         <h2>Email Verification</h2>
         <div class="otp-verification">
-            <label for="email">VIT Email Address</label>
-            <input type="email" id="email" name="email" placeholder="yourname@vit.edu" required><br><br>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="yourname@gmail.com" required><br><br>
             <div class="otp-input-group" style="display: none;">
                 <input type="text" id="otp" placeholder="Enter 6-digit OTP" maxlength="6"><br><br>
                 <button type="button" id="verifyBtn">Verify OTP</button>
@@ -119,8 +119,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         sendOtpBtn.addEventListener('click', () => {
             const email = emailInput.value;
-            if (!email.endsWith('@vit.edu')) {
-                otpStatus.textContent = 'Please enter a valid VIT email address';
+            if (!email.endsWith('@gmail.com')) {
+                otpStatus.textContent = 'Please enter a valid \ email address';
                 otpStatus.className = 'verification-status error';
                 return;
             }
