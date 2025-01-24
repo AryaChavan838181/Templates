@@ -26,11 +26,12 @@ This template provides a secure OTP verification system using PHPMailer for emai
 2. The backend script generates an OTP and sends it via PHPMailer.
 3. The user inputs the received OTP for verification.
 
-#### How to Clone and Set Up:
-Use the following command to clone the repository:
+#### How to Clone :
+Use the following command to clone this directory:
 ```bash
-git clone https://github.com/yourusername/templates-repo.git
-```
+git clone --filter=blob:none --sparse https://github.com/AryaChavan838181/Templates.git
+cd Templates
+git sparse-checkout set PHPMailer```
 
 Navigate to the PHPMailer directory:
 ```bash
@@ -46,10 +47,3 @@ composer install
 
 ## Contributing
 Feel free to contribute by submitting pull requests to enhance existing templates or add new ones.
-
-## License
-This project is licensed under the MIT License.
-
-## Contact
-For any queries, contact us at **support@yourdomain.com**.
-
