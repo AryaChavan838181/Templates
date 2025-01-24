@@ -1,17 +1,14 @@
 # Templates
-# Project Templates Repository
-
 Welcome to the **Templates Repository**, a collection of pre-built code templates to accelerate your development process.
-
-## Available Templates
-
+---
 #### How to Clone:
 To download the template, use the following command:
 ```bash
 git clone https://github.com/yourusername/templates-repo.git
 ```
-
 ---
+
+## Available Templates
 
 ### 1 . PHPMailer OTP System
 This template provides a secure OTP verification system using PHPMailer for email-based OTP delivery.
@@ -33,9 +30,6 @@ git clone --filter=blob:none --sparse https://github.com/AryaChavan838181/Templa
 cd Templates
 git sparse-checkout set PHPMailer```
 
-Navigate to the PHPMailer directory:
-```bash
-cd templates-repo/phpmailer-otp
 ```
 
 Install dependencies via Composer (if required):
